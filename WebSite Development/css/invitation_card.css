@@ -1,0 +1,142 @@
+body{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}  
+.grandparent{ 
+     perspective: 100000px;
+} 
+ .parent{
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+    transition: transform 1s linear; 
+    transform-style: preserve-3d;
+} 
+ .parent:hover{
+    transform: rotateY(180deg);
+}  
+.front{
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+    backface-visibility: hidden;
+}
+.frame{
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+    position: relative;
+}
+#frame1{
+    position: absolute;
+    right: -40px;
+    top:330px;
+    width: 600px;
+}
+.border1{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    height: 900px;
+    width: 900px;
+    border: 10px solid goldenrod;
+    border-bottom-right-radius: 50%;
+}
+.matter{
+    position: relative;
+    bottom: 1000px;
+    width: 1000px;
+    height: 500px;
+}
+.couple{
+    position: absolute;
+}
+.couple img{
+    position: relative;
+    left:70px;
+    top:-70px;
+}
+.couple #s1{
+    position: relative;
+    left:-350px;
+    top:20px;
+}
+.weds{
+    position: absolute;
+    background-color: black;
+    color:gold;
+    top: 70px;
+    right: 46px;
+    font-size:30px;
+}
+.couple_names{
+    position: absolute;
+    color:white;
+    top: 500px;
+    right: 240px;
+    font-size: 90px;
+    text-align: center;
+}
+.knot{
+    position: absolute;
+    top: 70px;
+}
+.quote{
+    position:absolute;
+    font-size: 40px;
+    color:gold;
+    top: 720px;
+    left: 220px;
+}
+.back{
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+    position:absolute;
+    transform: rotateY(180deg); 
+     backface-visibility: hidden; 
+}
+.frame2 img {
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    top:110px;
+    left: 100px;
+    color: white
+}
+.date{
+    position: absolute;
+    top: 230px;
+    left: 360px;
+    font-size: 50px;
+    color: gold;
+}
+.clos1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 300px;
+}
+.clos2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 300px;
+}
+.clos3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 300px;
+ 
+}
+.clos4{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 300px;
+}

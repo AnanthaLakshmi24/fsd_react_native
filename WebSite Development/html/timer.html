@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timmer</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            height: 100svh;
+        }
+        .parent{
+            position: relative;
+            background-color:black;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .minutes{
+            position: absolute;
+            width: 80px;
+            height: 50px;
+            background-color: grey;
+            top: 75px;
+            left: 10px;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        .seconds{
+            height: 50px;
+            width: 80px;
+            position: absolute;
+            top: 75px;
+            left: 110px;
+            background-color: grey;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        .colon{
+            height: 50px;
+            width: 10px;
+            position: absolute;
+            top: 75px;
+            left: 95px;
+            background-color: black;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="minutes"></div>
+        <div class="colon">:</div>
+        <div class="seconds"></div>
+    </div>
+    <button onclick="Cllear()" >Pause</button>
+    <script src="../js/timmer.js" ></script>
+</body>
+</html>

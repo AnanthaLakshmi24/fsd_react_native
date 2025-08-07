@@ -1,0 +1,43 @@
+body{
+    height: 100svh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.demo{
+    position: relative;
+    z-index: 1;
+    border: 2px solid red;
+    padding: 5px 5px;
+    overflow: hidden; 
+}
+.demo::before{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    content:"";
+    height: 100%;
+    width: 100%;
+    background-color: rgb(9, 240, 24);
+    transform: translateX(-70px) skewX(50deg);
+    transition: transform .5s linear;
+    
+}
+.demo::after{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    content:"";
+    height: 100%;
+    width: 100%;
+    background-color: rgb(249, 9, 113);
+    opacity: 0.5;
+    transform: translateX(1px) skewX(50deg);
+    transition: transform .5s linear;
+} 
+.demo:hover::before{
+    transform: translateX(-40px) skewX(50deg);
+}
+.demo:hover::after{
+    transform: translateX(-30px) skewX(50deg);
+} 

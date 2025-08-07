@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device_width, initial_scale=1.0">
+    <title>task_DOM</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container{
+        height: 700px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        position: relative;
+    }
+</style>
+<body>
+    <div class="container">
+    <img src="..\images\coding_logo.png" height="300px" width="300px" />
+    <button onclick="top_left_corner()">top-Left</button>
+    <button onclick=" top_right_corner()">top-Right</button>
+    <button onclick="bottom_left_cornr()">Bottom-left</button>  
+    <button onclick="bottom_right_corner()">Bottom-right</button>
+    </div>
+    <script>
+        function top_left_corner(){
+            document.getElementsByTagName("img")[0].style="position:absolute; left:0px; top:0px;";
+        }
+        function top_right_corner(){
+            document.getElementsByTagName("img")[0].style="position: absolute; right:0px;top:0px;";
+        }
+        function bottom_left_cornr(){
+            document.getElementsByTagName("img")[0].style="position:absolute; left:0px;bottom:0px;";
+        }
+        function bottom_right_corner(){
+            document.getElementsByTagName("img")[0].style="position:absolute; right:0px;bottom:0px;";
+        }
+    </script>
+
+</body>
+</html>

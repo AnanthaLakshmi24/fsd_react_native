@@ -1,0 +1,82 @@
+
+* {
+      margin: 0;
+      padding: 0;
+}
+body {
+      width: 100%;
+      height: 100vh;
+}
+.main-container {
+      width: 100%;
+      display: flex;
+}
+header {
+      width:100%;
+      height: auto;
+      justify-content: space-evenly;
+      align-items: center;
+}
+.nav-bar {
+      height: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: white;
+}
+.nav-bar img {
+      width: 200px;
+      height: 60px;
+      background-color:white;
+}
+.search {
+      display: flex;
+      align-items: center;
+      width: 400px;
+      height: 35px;
+      border-radius: 8px;
+      background-color: aliceblue;
+      padding: 0 10px;
+}
+.search i {
+      color: rgb(148, 146, 146);
+      margin-right: 10px;
+}
+.sea {
+      background-color: aliceblue;
+      border: none;
+}
+.login, .cart, .seller {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.login i, .cart i, .seller i {
+      margin-right: 8px;
+}
+.login button, .cart button, .seller button {
+      border: none;
+      background-color: white;
+      cursor: pointer;
+      font-weight: bold;
+      display: block;
+}
+.seller {
+      width: auto;
+}
+.dots {
+      color: rgb(31, 28, 28);
+      font-size: 20px;
+      cursor: pointer;
+}
+@media (min-width: 320px) {
+      .login button,
+      .cart button,
+      .seller button {
+        display: none;
+      }
+}

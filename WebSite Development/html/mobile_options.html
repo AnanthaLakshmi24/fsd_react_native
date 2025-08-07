@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-options_task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body{
+        overflow: hidden;
+        background-color: pink;
+    }
+    .mobile-options{
+        position: absolute; 
+        top:0px;
+        right: -300px;
+        transition: right 0.3s ease-out;
+        width: 300px;
+        height: 100svh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+    }
+    .mobile-options div{
+        color: white;
+        padding: 20px 0px;
+        border-bottom: 1px solid white;
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+
+    }
+    .mobile-options div:hover{
+        background-color: rgb(83, 83, 83);
+        cursor: pointer;
+        transform: translateY(2px);
+    }
+    span{
+        color: white;
+        font-size: 60px;
+        cursor: pointer;
+        width: fit-content;
+    }
+    .icon{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div onfocus="fun()" onclick="Open()" class="icon"><i class="fa-solid fa-bars"></i></div>
+    <div class="mobile-options">
+        <span onclick="Close()">&times;</span>
+        <div>Home</div>
+        <div>About</div>
+        <div>Pricing</div>
+        <div>Services</div>
+        <div>Contact</div>
+    </div>
+
+    <script>
+
+        function Close(){
+            document.getElementsByClassName("mobile-options")[0].style="right:-300px ";
+        }
+        function Open(){
+            document.getElementsByClassName("mobile-options")[0].style="right:0px";
+        }
+    
+    </script>
+</body>
+</html>

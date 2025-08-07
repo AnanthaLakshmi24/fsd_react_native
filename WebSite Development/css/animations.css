@@ -1,0 +1,21 @@
+.demo{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(4, 229, 101);
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+@keyframes myanimation{
+    0%{
+        left:0px;
+    }
+    100%{
+        left: 200px;
+        background-color: rgb(244, 68, 9);
+        box-shadow: 0 0 15px 20px rgb(177, 231, 2) ;
+    }
+}

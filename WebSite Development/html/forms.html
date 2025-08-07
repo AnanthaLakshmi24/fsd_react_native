@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <h1>Explanation of form Tags</h1>
+     <form>
+    <label>Enter UserName : </label><input type="text" placeholder="Enter Name" maxlength="10" minlength="5"/> <br/>
+    <label>Enter Mobile NUmber : </label><input type="Number"  placeholder="Enter number" /> <br/>
+    <label>Enter Password : </label><input type="Password" type="submit" placeholder="Enter Password" minlength="5" maxlength="10"/> <br/>
+    <label>Enter Email : </label><input type="email"  placeholder="Enter E-Mail" /> <br/>
+    <label>Gender: </label><br/>
+    <label>Male</label><input type="radio" name="Gender" /> <br/>
+    <label>Female</label><input type="radio" name="Gender"  /> <br/>
+    <label>Other</label><input type="radio" name="Gender"  /> <br/>
+    <label>Skills</label><br/>
+    <input type="checkbox" /><label>c</label>
+    <input type="checkbox" /><label>c++</label>
+    <input type="checkbox" /><label>Java</label>
+    <input type="checkbox" /><label>Python</label><br/>
+    <label>Which College</label>
+    <select>
+    <option d>Select</option>
+    <option>AEC</option>
+    <option>AECT</option>
+    <option>ACOE</option>
+    </select><br/>
+    <label>Date Of Birth : </label><input type="date" /><br/>
+    <label>Fav Colour : </label><input type="color" /><br/>
+    <label>Upload File : </label><input type="file" /><br/>
+    <label>Range of Experience : </label> <input type="range" min="0" max="100" /><br/>
+    <label>Address :</label><textarea cols="10" rows="1">Address</textarea><br/>
+    <input type="submit" /> 
+</form>-->
+    <h1>Application Form</h1>
+    <form>
+        <label>First Name: <input type="text" required /></label>
+        <label>Last Name: <input type="text" /></label><br/><br/>
+        <label>Date of Birth : <input type="date" required /> </label>
+        <label>Age : <input type="number" max="100" /> </label><br/><br/>
+        <label>Gender:
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </label> 
+        <label>Email Address: <input type="text" placeholder="Enter email Address"/></label> <br/><br/>
+        <label>Position Available:</label>
+        <input type="radio" name="radio" /><label>Junior Developer</label>   
+        <input type="radio" name="radio" /><label>Mid-Level Developer</label>
+        <input type="radio" name="radio" /><label>Senior Developer</label><br/><br/>
+        <label>Programming Languages:</label>
+        <input type="checkbox"/><label>Java</label>
+        <input type="checkbox"/><label>JavaScript</label>
+        <input type="checkbox"/><label>Python</label><br/><br/>
+        <label>Password: 
+            <input type="password" maxlength="10" required />
+        </label>
+        <label>Confirm Password: <input type="password" maxlength="10" /></label><br/><br/>
+        <input type="submit" /><input type="reset" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: black;
+    }
+
+    #big-circle {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      border: 2px solid white;
+      border-radius: 50%;
+      display: none;
+    }
+
+    #inner-circle {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background:white;
+      border-radius: 50%;
+      box-shadow: 0px 0px 15px 8px white;
+      top: 25%;
+      left: 25%;
+    }
+  </style>
+</head>
+<body>
+
+<div id="big-circle">
+  <div id="inner-circle"></div>
+</div>
+
+<script>
+  const circle = document.getElementById('big-circle');
+
+  document.body.addEventListener('mousemove', (e) => {
+    circle.style.display = 'block';
+    circle.style.left = (e.pageX - 15) + 'px';
+    circle.style.top = (e.pageY - 15) + 'px';
+  });
+
+  document.body.addEventListener('mouseleave', () => {
+    circle.style.display = 'none';
+  });
+</script>
+
+</body>
+</html>

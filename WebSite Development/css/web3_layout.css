@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100svh;
+    width: 100%;
+    /* background-color:rgb(60, 6, 94); */
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height:auto;
+    background-color:rgb(60, 6, 94);
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 150px;
+    margin-bottom: 0px;
+    background-color:rgb(60, 6, 94); 
+
+}
+.logo{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height:auto;
+    width: 100%;
+    background-color:rgb(60, 6, 94);     
+}
+.left{
+    height: 340px;
+    width: 300px;
+    color: white;
+    padding: 30px;
+    background-color:rgb(60, 6, 94);
+}
+.button{
+    border-radius:50px;
+    padding: 10px 25px;
+    border: 0;
+    background-color: rgb(19, 151, 203);
+    color: white;
+}
+.web-heading{
+    font-size: 35px;
+}
+.right{
+    height: 400px;
+    width: 350px;
+    background-color:rgb(60, 6, 94);
+    object-fit: cover;
+}
+.key-features{
+    background-color:white;
+    height:auto;
+    width: 100%;
+}
+.fe{
+    margin-top: 20px;
+    height: 100px;
+    background-color:white;
+    color: black;
+}
+.p2 {
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.smile-photo img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:20px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+}
+.features .ch {
+    height: 190px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.child1{
+    background-color:rgb(23, 169, 226);
+}
+.child2{
+    background-color: rgb(160, 1, 160);
+}
+.child3{
+    background-color: rgb(6, 6, 96);
+}
+.child4{
+    background-color: rgb(197, 8, 124);
+}
+.features i {
+    font-size: 35px;
+    padding: 10px;
+    color:white;
+}
+.features h2 {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+.image-credit {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0 20px 0;
+    color: black;
+}
+.image-credit a {
+    color: black;
+    text-decoration: underline;
+}
+.section-title {
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  padding: 40px 0 0 200px;
+  background-color:#2e0051 ;
+} 
+.data-visual {
+    width: 100%;
+    height:auto;
+    background-color: #2e0051;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.p4{
+  display: flex; 
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  
+}
+.image-box{
+    margin-left: 20px;
+    height: 450px;
+}
+.image-box img {
+  width:550px;
+  height:400px;
+}
+.credit {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: white;
+}
+.credit a {
+  color: #f0f0f0;
+  text-decoration: underline;
+}
+.text-box {
+    height: 320px;
+    width: 200px;
+    gap:30px;
+}
+.goal h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.goal p {
+  font-size: 15px;
+}
+.goal a {
+  color: white;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.it{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 40px;
+    height:auto;
+    width: 100%;
+    margin-top: 50px;
+    background-color:white;     
+}
+.left1{
+    height: 280px;
+    width: 220px;
+    color:black;
+    background-color:white;
+    margin-top: 20px;
+}
+.right1{
+    height: 300px;
+    width: 600px;
+    background-color:rgb(23, 168, 252);
+    object-fit: cover;
+    margin: 0;
+}
+.right1 img{
+    height: 300px;
+    width: 600px;
+}

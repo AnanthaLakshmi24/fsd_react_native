@@ -1,0 +1,65 @@
+body{
+    height: 100svh;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    perspective: 100000000px;
+}
+.cube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: myanimation 6s infinite linear; 
+}
+ @keyframes myanimation{
+    100%{
+    transform: rotateX(90deg) rotateY(270deg) rotateZ(360deg) ;
+    }
+} 
+.cub{
+    position: absolute;
+    height: 200px;
+    width:200px;
+    border-radius: 10px;
+}
+.grid{
+    height: 200px;
+    width:200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.child{
+    height: 65px;
+    width: 65px;
+    border: 1px solid black;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.left{
+    background-color: red;
+    transform: rotateY(90deg) translateZ(100px);
+}
+.right{
+    background-color: orange;
+    transform: rotateY(90deg) translateZ(-100px);
+}
+.top{
+    background-color: white;
+    transform: rotateX(90deg) translateZ(100px);
+}
+.bottom{
+    background-color: yellow;
+    transform: rotateX(90deg) translateZ(-100px);
+}
+.front{
+    background-color: rgb(60, 242, 28);
+    transform:translateZ(100px);
+}
+.back{
+    background-color: rgb(59, 175, 233);
+    transform:translateZ(-100px);
+}

@@ -1,0 +1,442 @@
+.girl{
+    margin: 0;
+    padding: 0;
+    background-color:mediumspringgreen;
+    height: 900px;
+    width:800px;
+    position: relative;
+    left: 650px;
+}
+.head{
+    width: 200px;
+    height: 200px;
+    background-color:mediumspringgreen;
+    position: absolute;
+    left: 290px;
+}
+.hair{
+    width: 200px;
+    height: 200px;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    
+}
+ .face{ 
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    background-color: white;
+    position:absolute;
+    top: 35px;
+    left: 25px;
+}
+ .eyes{ 
+    width: 130px;
+    height: 40px;
+    background-color:white;
+    position: relative;
+    top: 40px;
+    left:10px;
+}
+ .eye1{ 
+    width: 30px;
+    height:40px;
+    background-color: white;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 70%;
+    left: 10px;
+}
+.eye2{
+    width: 30px;
+    height:40px;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    border-radius: 70%;
+    left:85px;
+    z-index: 2;
+}
+ .eye-ball{ 
+    width:30px ;
+    height: 30px;
+    border-radius: 50%;
+    background-color:black;
+    position: absolute;
+    left: 1px;
+    top: 10px;
+ }
+ 
+.nose {
+  position: absolute;
+  top: 75px; 
+  left: 75px;
+
+}
+
+.nose-line {
+  width: 2px;
+  height: 20px;
+  background-color: #8b5e3c; 
+}
+
+.nose-curve {
+  width: 12px;
+  height: 6px;
+  border: 2px solid #8b5e3c;
+  border-top: none;
+  border-radius:0 0 10px 10px ;
+}
+ .mouth{  
+    background-color:red;
+    height: 10px;
+    width:30px;
+    position:absolute;
+    left: 60px;
+    bottom: 15px;
+    border:5px solid black;
+    border-radius:0 0 55px 55px ;
+}
+ 
+.neck{
+    width: 60px;
+    background-color: white;
+    height: 40px;
+    border: 60px;
+    position:absolute;
+    top: 175px;
+    left: 70px;
+    z-index: 2;
+} 
+ 
+.body {
+      width: 800px;
+      height: 375px;
+      background-color:mediumspringgreen;
+      position: absolute;
+      top: 210px;
+      border-top-left-radius:40px;
+      border-top-right-radius:40px;
+      z-index: 3;
+    }
+ .shirt{
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    position: absolute;
+    background-color:cyan;
+    left: 315px;
+}
+
+.col{
+    border-bottom: 5px solid black;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    border-radius: 0 0 60px 60px;
+    left: 360px;
+    top: -20px;
+    z-index: 2;
+
+}
+.pocket{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color:darkmagenta;
+    left: 415px;
+    top: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.belt{
+    height: 10px;
+    width: 150px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    position: absolute;
+    background-color:darkmagenta;
+    top:150px ;
+    left: 315px;
+}
+.small-belt-design{
+    height: 10px;
+    width: 150px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    position: absolute;
+    background-color: darkmagenta;
+    top: 11px;
+
+}
+
+.pants{
+    width: 150px;
+    height: 5px;
+    position: relative;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid darkmagenta;
+    left: 216px;
+    top: 170px;
+} 
+ .arm1 {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 170px;
+    top: 100px;
+}
+
+.upper-arm1{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(40deg);
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    
+}
+
+.lower-arm1{
+    width:150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 28px;
+    left: 100px;
+    transform: rotate(-70deg);
+    transform-origin: left center;
+}
+
+.upper-arm2{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(-40deg);
+    position: absolute;
+    top: 110px;
+    left: 491px;
+    
+}
+
+.lower-arm2{
+    width:150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: -13px;
+    left: 460px;
+    transform: rotate(70deg);
+    transform-origin: left center;
+}
+.hands1{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    background-color:white;
+    left: 50px;
+    top: -2px;
+    transform: rotate(-50deg);
+    transform-origin: left center;
+    border: 1px solid black;
+}
+.finger1{
+    width: 9px;
+    height: 20px;
+    background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -11px;
+    left: 48px;
+    transform: rotate(90deg);
+    transform-origin: left center;
+}
+.finger2{
+    width: 7px;
+    height: 20px;
+    background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -22px;
+    left: 26px;
+}
+ .finger3{
+    width: 7px;
+    height: 30px;
+    background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -31px;
+    left: 16px;
+}
+ .finger4{
+    width: 7px;
+    height: 20px;
+     background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -22px;
+    left: 8px;
+}
+ .finger5{
+    width: 7px;
+    height: 15px;
+     background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -16px;
+    left: 0px;
+}
+.hands2{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    background-color:white;
+    transform: rotate(50deg);
+    transform-origin: right center;
+    top: 100px;
+    left: 525px;
+    border: 1px solid black;
+ 
+}
+ .finger6{
+    width: 9px;
+    height: 18px;
+     background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -14px;
+    left: -9px;
+    transform: rotate(100deg);
+    transform-origin: left center;
+}
+.finger7{
+    width: 7px;
+    height: 15px;
+     background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    left: 25px;
+    top: -19px;
+}
+ .finger8{
+    width: 7px;
+    height: 20px;
+     background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -24px;
+    left: 16px;
+}
+ .finger9{
+    width: 7px;
+    height: 30px;
+     background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -33px;
+    left: 8px;
+}
+ .finger10{
+    width: 7px;
+    height: 20px;
+     background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: -24px;
+    left: 0px;
+} 
+.legs{
+    width: 200px;
+    height: 200px;
+    background-color:mediumspringgreen;
+    position: absolute;
+    top: 580px;
+    left: 300px;
+}
+.leg-left{
+    height: 200px;
+    width: 40px;
+    background-color: white;
+    left: 10px;
+    position: absolute;
+}
+.sock1{
+    width: 40px;
+    height: 100px;
+    background-color:black;
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+.line{
+    width: 40px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+
+}
+.sock2{
+    width: 40px;
+    height: 100px;
+    background-color:black;
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+.line{
+    width: 40px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+
+}
+.leg-right{
+    height: 200px;
+    width: 40px;
+    background-color: white;
+    left: 130px;
+    position: absolute;
+}
+.feet{
+    width: 200px;
+    height: 100px;
+    background-color:mediumspringgreen;
+    position: absolute;
+    top:780px;
+    left: 300px;
+}
+.shoe-left{
+    width: 100px;
+    height: 60px;
+    background-color:darkmagenta;
+    border-top-right-radius:70px ;
+    border-top-left-radius: 5px;
+}
+.shoe-right{
+    width: 100px;
+    height: 60px;
+    background-color:darkmagenta;
+    border-top-right-radius:70px ;
+    border-top-left-radius: 5px;
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+
+}

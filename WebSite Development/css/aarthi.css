@@ -1,0 +1,16 @@
+body{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.frame{
+    position: relative;
+    width:500px;
+    height: 500px;
+    background-color: rgb(234, 228, 229);
+}
+.frame > img{
+    position: absolute;
+    left: 50px;
+}

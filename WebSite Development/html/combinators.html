@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        /* .parent h1{
+            color: red;
+        }
+        .parent > h1{
+            color: red;
+        } 
+         div + h1{
+            color: red;
+        } */
+         div ~ h1{
+            color: red;
+         }
+
+    </style>
+</head>
+<body>
+    <!-- 
+    * types of Combinators- some set of elements with no time 
+    1) "  " - It selects all the child inside the parent which had to modified
+             Syntax - parent child{ }
+
+    2) " > "  - Selects all the child in the first level
+    3) " + " - it selects the sibiling elements when exists right after the 
+    4) " ~ " - it selects the sibiling  may not be right after that element
+     -->
+    <h1>Top Outer h1</h1>
+    <div class="parent">
+        <h1>First</h1>
+        <h1>Second</h1>
+        <div>
+            <h1>Inner child</h1>
+        </div>
+        <span>Anu</span>
+        <h1>Third</h1>
+        <p>Fourth</p>
+    </div>
+    <h2>Anusha</h2>
+    <h1>Bottom outer h1</h1>
+</body>
+</html>

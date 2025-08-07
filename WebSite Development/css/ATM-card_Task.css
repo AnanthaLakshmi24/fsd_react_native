@@ -1,0 +1,72 @@
+.card{
+    width: 350px;
+    height: 220px;
+    background-color:darkblue;
+    font-family: Arial, sans-serif;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+.header{
+    color: white;
+    font-size: 24px;
+    
+}
+.chip{
+    margin-top: 30px;
+    
+}
+.card-num{
+    color: gold;
+    letter-spacing: 2px;
+    font-size:20px;
+    
+}
+.small-num{
+    font-size: 10px;
+    color: white;
+}
+.valid {
+    
+    gap: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 120px;
+    margin-bottom:5px;
+}
+
+.valid-label {
+    color: white;
+    margin: 0;
+}
+
+.valid-num {
+    color: gold;
+    font-size: 20px;
+    position: relative;
+    bottom: 12px;
+}
+.holder{
+    color: gold;
+    font-size: 18px;
+    word-spacing: 5px;
+    font-family:Arial, sans-serif;
+    position: relative;
+    bottom: 0px;
+}
+.logo{
+    font-size: 45px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+.small-logo {
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}
